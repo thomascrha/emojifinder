@@ -4,7 +4,7 @@ version = "0.1"
 authors = [
   { name="Thomas Crha", email="thomas@9bitbyte.com" },
 ]
-description = "A cli interface for finding emojis using the [emojifinder.com](https://emojifinder.com) API."
+description = "A cli interface for finding emojis using the [emojifinder.com](https://emojifinder.com) 'API'."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-emojifinder = "src:__main__.main"
+emojifinder = "src:emojifinder:__main__.main"
 
 [project.urls]
 "Homepage" = "https://github.com/thomascrha/emojifinder"
