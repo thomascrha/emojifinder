@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-textual-game-of-life = "src:__main__.main"
+emojifinder = "src:__main__.main"
 
 [project.urls]
 "Homepage" = "https://github.com/thomascrha/emojifinder"
