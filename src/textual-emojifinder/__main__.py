@@ -1,4 +1,4 @@
-"""Search for emojis on emojifinder.com"""
+"""A cli interface for finding emojis using textual"""
 from typing import List
 import http.client
 import json
